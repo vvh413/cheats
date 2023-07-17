@@ -1,0 +1,5 @@
+% pueue, aria2, download
+
+# Start downloading via aria2c under pueue
+pueue add "aria2c -c --seed-time=0 '<url>'"
+
