@@ -1,5 +1,5 @@
 % notify-send, pipe
 
 # Continuously send notifications from stdin replacing previous
-while read text; do id=$(notify-send -p -r $id $text); done
+while read text; do id=$(notify-send -p -r "${id:-0}" "$text"); done
 
