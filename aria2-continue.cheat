@@ -1,0 +1,4 @@
+% aria2, download
+
+# Start/continue downloading via aria2c with zero seeding time
+aria2c -c --seed-time=0 '<url>'
